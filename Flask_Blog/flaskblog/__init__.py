@@ -11,7 +11,7 @@ application.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(application)
 bcrypt = Bcrypt(application)
 login_manager = LoginManager(application)
-login_manager.login_view = 'login'
+login_manager.login_view = 'login'                  #Bootsrtap style
 login_manager.login_message_category = 'info'       #Bootsrtap style
 
 
